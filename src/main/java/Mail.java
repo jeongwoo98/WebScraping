@@ -15,10 +15,10 @@ import javax.mail.internet.MimeMultipart;
 public class Mail {
     public static void main(String[]args){
         //authentication information
-        final String username = "jeongwoomoon@hotmail.com";
-        final String password = "Moon19981224!";
-        String fromEmail = "jeongwoomoon@hotmail.com";
-        String toEmail = "jeongwoomoon@hotmail.com";
+        final String username = "YOUREMAIL";
+        final String password = "YOURPASSWORD";
+        String fromEmail = "YOUREMAIL";
+        String toEmail = "YOURPASSWORD";
 
         Properties properties = new Properties();
         properties.put("mail.smtp.auth","true");
